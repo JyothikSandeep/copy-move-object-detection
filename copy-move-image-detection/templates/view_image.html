@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>output</title>
+    <link rel="stylesheet" href="../static/css/stylesheet2.css" />
+  </head>
+  <body>
+    <form action="/">
+      <input type="submit" value="Home" class="Home_button" />
+    </form>
+    <h1>DETECTION OF COPY MOVE IMAGE IF PRESENT</h1>
+    <!-- <button onclick="..">Home</button> -->
+    <div class="c">
+      <img
+        src="{{ url_for('static', filename='uploads/' + filename) }}"
+        alt="image"
+      />
+    </div>
+  </body>
+</html>

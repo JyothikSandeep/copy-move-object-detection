@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Image</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../static/css/stylesheet.css" />
+  </head>
+  <body>
+    <h1>DETECTION OF COPY-MOVE IMAGE</h1>
+    <h2>UPLOAD A IMAGE TO DETECT FORGERY</h2>
+    <form method="POST" action="/" enctype="multipart/form-data">
+      <div class="container">
+        <input
+          type="file"
+          class="upload_hide"
+          id="upload_costum"
+          name="image"
+          accept="image/*"
+          required
+        />
+        <label for="upload_custom" class="upload_label">
+          <i class="fas fa-cloud-upload-alt"></i>
+          <p class="drag_text">Drag & Drop to upload</p>
+          <button class="choose_file">Choose a file</button>
+        </label>
+      </div>
+      <button class="choose_file">Choose a file</button>
+      <input type="submit" value="submit" /> -->
+<!-- </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="../static/css/stylesheet.css" />
+  </head>
+  <body>
+    <h1>DETECTION OF COPY-MOVE IMAGE</h1>
+    <h2>UPLOAD A IMAGE TO DETECT FORGERY</h2>
+    <form method="POST" action="/" enctype="multipart/form-data">
+      <!-- <div class="choose_file"> -->
+      <label class="choose_file">
+        <input type="file" name="image" accept="image/*" required />
+        Upload Image
+      </label>
+      <!-- </div> -->
+      <!-- <br /><br /> -->
+      <!-- <label for="file"> A file</label> -->
+      <input type="submit" value="submit" class="submit_button" />
+    </form>
+  </body>
+</html>
